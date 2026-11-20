@@ -1,0 +1,70 @@
+{
+  "dataset": "single-production-line holdout",
+  "n_images": 18397,
+  "defect_images": 1282,
+  "normal_images": 17115,
+  "classification_threshold": 0.5,
+  "mask_threshold": 0.3,
+  "metrics": [
+    {
+      "split": "test",
+      "model": "raw_baseline",
+      "epoch": "23",
+      "task": "any_defect",
+      "precision": "0.2198",
+      "recall": "0.9875",
+      "tp": "1266",
+      "fp": "4495",
+      "fn": "16",
+      "tn": "12620",
+      "support_positive": "1282",
+      "support_negative": "17115",
+      "threshold": "0.5"
+    },
+    {
+      "split": "test",
+      "model": "A_soft_score",
+      "epoch": "30",
+      "task": "any_defect",
+      "precision": "0.2719",
+      "recall": "0.9813",
+      "tp": "1258",
+      "fp": "3369",
+      "fn": "24",
+      "tn": "13746",
+      "support_positive": "1282",
+      "support_negative": "17115",
+      "threshold": "0.5"
+    },
+    {
+      "split": "test",
+      "model": "B_hard_mask_gray",
+      "epoch": "29",
+      "task": "any_defect",
+      "precision": "0.2669",
+      "recall": "0.9805",
+      "tp": "1257",
+      "fp": "3452",
+      "fn": "25",
+      "tn": "13663",
+      "support_positive": "1282",
+      "support_negative": "17115",
+      "threshold": "0.5"
+    },
+    {
+      "split": "test",
+      "model": "C_hard_mask_rgb",
+      "epoch": "24",
+      "task": "any_defect",
+      "precision": "0.2837",
+      "recall": "0.9805",
+      "tp": "1257",
+      "fp": "3174",
+      "fn": "25",
+      "tn": "13941",
+      "support_positive": "1282",
+      "support_negative": "17115",
+      "threshold": "0.5"
+    }
+  ]
+}

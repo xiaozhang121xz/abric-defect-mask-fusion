@@ -1,0 +1,5 @@
+split,model,epoch,task,precision,recall,tp,fp,fn,tn,support_positive,support_negative,threshold
+test,raw_baseline,23,any_defect,0.2198,0.9875,1266,4495,16,12620,1282,17115,0.5
+test,A_soft_score,30,any_defect,0.2719,0.9813,1258,3369,24,13746,1282,17115,0.5
+test,B_hard_mask_gray,29,any_defect,0.2669,0.9805,1257,3452,25,13663,1282,17115,0.5
+test,C_hard_mask_rgb,24,any_defect,0.2837,0.9805,1257,3174,25,13941,1282,17115,0.5

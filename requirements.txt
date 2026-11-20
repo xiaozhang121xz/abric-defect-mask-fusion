@@ -1,0 +1,7 @@
+# Reference environment only; exact CUDA-compatible versions were not locked.
+numpy
+Pillow
+opencv-contrib-python
+torch
+torchvision
+tensorboard
