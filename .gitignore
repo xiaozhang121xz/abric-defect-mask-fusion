@@ -16,6 +16,7 @@ weights/
 *.jpg
 *.jpeg
 *.png
+!assets/*.png
 *.webp
 *.tif
 *.tiff
